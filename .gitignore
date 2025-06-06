@@ -1,0 +1,25 @@
+﻿# Ethiopian Bank Reviews Analysis
+
+## Project Structure
+- data/: Contains all datasets
+- 
+otebooks/: Jupyter notebooks for exploration
+- src/: Source code for scraping and analysis
+- docs/: Project documentation
+
+## Initial Setup
+1. Create virtual environment: python -m venv venv
+2. Install requirements: pip install -r requirements.txt
+"@ | Out-File -FilePath README.md -Encoding utf8
+
+@"
+*.csv
+*.ipynb_checkpoints*
+__pycache__/
+venv/
+.DS_Store
+.env
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
